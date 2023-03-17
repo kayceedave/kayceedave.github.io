@@ -1,0 +1,454 @@
+body {
+    background-color: white;
+    height: 300vh;
+    
+}
+header {
+    display: flex;
+    background-color: rgba(0, 0, 139, 0.959);
+    height: 70px;
+}
+header .slim {
+    padding-left: 200px;
+    color: white;
+    padding-right: 10px;
+    font-size: 40px;
+    align-self: center;
+    text-align: right;
+    
+}
+.sprite {
+   display: flex; 
+   background-color: rgba(255, 0, 0, 0.932);
+   width: 100%;
+   align-items: center;
+   height: 70px;
+   
+   
+}
+.sprite .swim {
+    flex: 1;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.sprite .twim {
+    flex: 2;
+    text-align: right;
+    margin-right: 155px;
+    font-size: 18px;
+    display: inline;
+}
+.sprite a {
+    text-decoration: none;
+    color: white;
+    
+}
+.sprite a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.185);
+    padding: 10px 2px;
+}
+header .sprite img[alt="profile"] {
+    height: 20px;
+    margin-left: 20px;
+     
+}
+.supreme {
+    margin: 0 auto;
+    padding: auto;
+}
+nav {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.377);
+    
+}
+nav a.three {
+    margin-left: 310px;
+    background-color: rgba(255, 0, 0, 0.973);
+    border-radius: 5%;
+    color: white;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color: gray;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+nav .three:hover {
+    background-color: rgba(139, 0, 0, 0.973) !important;
+    color: white !important;
+    text-decoration: none  !important;
+}
+
+section {
+    background-color: rgba(128, 128, 128, 0.37);
+    height: 170vh;
+    border: 4px solid rgba(0, 0, 0, 0.062);
+    padding: 50px 157px;
+    position: sticky;
+    top: 0px;   
+}
+.reem {
+    display: flex;
+    border: 4px solid #77777738;
+    
+}
+.reem .lay {
+    background-color: white;
+    height: 410px;
+    padding: 30px;
+    padding-top:60px;
+    width: 89px;
+    
+    
+}
+.reem .lay label{
+    color: rgba(0, 0, 255, 0.842);
+}
+.reem .lay a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 35px;
+}
+.reem .lay a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.815);
+}
+.aside {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    
+    
+    
+}
+.lake {
+    position: relative;
+    width: 33.33%;
+    padding-right: 20px;
+}
+.lake .sum {
+    border: 4px solid #77777725;
+    margin-top: 30px;
+    width: 97%;    
+}
+.sage  {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    padding-top: 10px;
+    
+    
+}
+.sage label {
+    color: rgba(0, 0, 255, 0.842);
+}
+.sage a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 35px;
+}
+.sage a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.815);
+}
+.lazy {
+    position: relative;
+    width: 33.33%;
+    padding-right: 20px;
+}
+.lazy .zip {
+    border: 4px solid #77777725;
+    margin-top: 30px;
+    width: 98%;
+    
+    
+}
+.code  {
+    background-color: white;
+    height: 200px;
+    width: 254px;
+    padding:  15px;
+    
+}
+.code label {
+    color: rgba(0, 0, 255, 0.842);
+}
+.code a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 33px;
+}
+.code a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.815);
+}
+.sexy {
+   position: relative; 
+   
+}
+.sexy .reels {
+    border: 4px solid #77777725;
+    margin-top: 30px;
+    width: 100%;
+    margin-right: 20px;
+    
+    
+}
+.sleep {
+    background-color: white;
+    height: 200px;
+    width: 200pxpx;
+    padding: 20px;
+    padding-top: 10px;
+    
+    
+}
+.sleep label {
+    color: rgba(0, 0, 255, 0.842);
+}
+.sleep a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 35px;
+}
+.sleep a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.815);
+}
+section img[alt="photo"] {
+    height: 500px;
+    width: 750px;
+    
+}
+section img[alt="reign"] {
+    height: 200px;
+    width: 100%;
+    position: static;
+   
+    
+}
+section img[alt="love"] {
+    height: 200px;
+    width: 100%;
+    
+}
+section img[alt="team"] {
+    height: 200px;
+    width: 100%;
+    
+}
+section img[alt="play"] {
+    height: 60px;
+    position:absolute;
+    padding: 150px 10px;
+    top: 2px;
+        
+}
+footer {
+    padding: 0 157px;
+    margin-top: 50px;
+    position: relative;
+}
+footer .same {
+    display: flex;
+    
+}
+footer .kim img {
+    height: 40px;
+    position: absolute;
+
+}
+footer .kim label {
+    font-size: 25px;
+
+    padding: 40px;
+}
+footer .kim a {
+    text-decoration: none;
+    color: #777777;
+} 
+footer .kim a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.651);
+}
+footer .win img {
+    height: 40px;
+    position: absolute;
+    padding-bottom:20px;
+
+    
+
+}
+footer .win label {
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+} 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:480px) {
+    .col-s-1 {
+        width:8.33%;
+    }
+    .col-s-2 {
+        width:16.67%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width:41.65%;
+    }
+    .col-s-6 {
+        width:50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }.col-s-9 {
+        width:75%;
+    }
+    .col-s-10 {
+        width:83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width:481px) {
+    .col-m-1 {
+        width:8.33%;
+    }
+    .col-m-2 {
+        width:16.67%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width:41.65%;
+    }
+    .col-m-6 {
+        width:50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }.col-m-9 {
+        width:75%;
+    }
+    .col-m-10 {
+        width:83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) {
+    .col-l-1 {
+        width:8.33%;
+    }
+    .col-l-2 {
+        width:16.67%;
+    }
+    .col-l-3 {
+        width: 25%;
+    }
+    .col-l-4 {
+        width: 33.33%;
+    }
+    .col-l-5 {
+        width:41.65%;
+    }
+    .col-l-6 {
+        width:50%;
+    }
+    .col-l-7 {
+        width: 58.33%;
+    }
+    .col-l-8 {
+        width: 66.66%;
+    }.col-l-9 {
+        width:75%;
+    }
+    .col-l-10 {
+        width:83.33%;
+    }
+    .col-l-11 {
+        width: 91.66%;
+    }
+    .col-l-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1025px) {
+    .col-xl-1 {
+        width:8.33%;
+    }
+    .col-xl-2 {
+        width:16.67%;
+    }
+    .col-xl-3 {
+        width: 25%;
+    }
+    .col-xl-4 {
+        width: 33.33%;
+    }
+    .col-xl-5 {
+        width:41.65%;
+    }
+    .col-xl-6 {
+        width:50%;
+    }
+    .col-xl-7 {
+        width: 58.33%;
+    }
+    .col-xl-8 {
+        width: 66.66%;
+    }.col-xl-9 {
+        width:75%;
+    }
+    .col-xl-10 {
+        width:83.33%;
+    }
+    .col-xl-11 {
+        width: 91.66%;
+    }
+    .col-xl-12 {
+        width: 100%;
+    }
+}
